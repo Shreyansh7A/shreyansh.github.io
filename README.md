@@ -14,3 +14,17 @@ Welcome! I'm a Software Engineering enthusiast with a background in Computer Sci
 
 [Mosaic Generator](https://github.com/Shreyansh7A/shreyansh.github.io/tree/main/project_mosiacs): Created a Mosiac Generator. Steps on how to use it: Upload a folder of images and name it tiles. Upload a base image that you want to convert into a mosaic and name it base_image.png. Clone the repository and run the code, this project will transform the base image using the provided image dataset. This tool is perfect for creating personalized birthday or celebratory posts with stunning, high-quality mosaics. 
 The project leverages Python to handle image loading, color analysis, and tile selection. Using NumPy, it implements distance-based color matching algorithms to analyze the average color of different regions in the base image. An energy function is employed to find the tiles that closely match the average color of these regions, ensuring seamless blending and a visually appealing result.
+
+[Creating my own shell/bash using C](https://github.com/Shreyansh7A/shreyansh.github.io/tree/main/c_programming):
+
+In this project, I implemented my own shell using C, focusing on creating a functional and interactive command-line environment. My shell supports a variety of features, including:
+
+- **Process Management:** Commands to start, stop, and kill processes.
+- **Redirection Operators:** Support for `>`, `>>`, and `<` to redirect input and output.
+- **Logical Operators:** Handling of `&&`, `||`, and `;` for chaining commands.
+- **Command History:** Recall and re-execution of past commands using `!` and `#` syntax.
+- **Foreground and Background Execution:** Seamless handling of processes running in both modes.
+
+I utilized system calls such as `fork()`, `execvp()`, and `waitpid()` for process creation and synchronization, along with signal handling for operations like pausing (`SIGSTOP`) or resuming (`SIGCONT`) processes.
+
+This project deepened my understanding of Unix/Linux process management and shell behavior while showcasing the capabilities of C in building system-level applications. I’m proud to have built a robust and user-friendly shell from scratch.
