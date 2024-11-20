@@ -29,6 +29,8 @@ I utilized system calls such as `fork()`, `execvp()`, and `waitpid()` for proces
 
 This project deepened my understanding of Unix/Linux process management and shell behavior while showcasing the capabilities of C in building system-level applications. I’m proud to have built a robust and user-friendly shell from scratch.
 
-[Spy Camera Detector](https://github.com/Shreyansh7A/shreyansh.github.io/tree/main/IOT): In this project, I developed a system to detect and locate hidden spy cameras using a Raspberry Pi setup. This setup is particularly useful for anyone concerned about privacy, such as when staying in hotels or Airbnbs. By walking through a room with this system, you can detect and locate hidden surveillance devices in real time, providing an easy and effective way to enhance personal security and privacy. 
+[Spy Camera Detector](https://github.com/Shreyansh7A/shreyansh.github.io/tree/main/IOT): In this project, I developed a system to detect and locate hidden spy cameras using a Raspberry Pi setup. This setup is particularly useful for anyone concerned about privacy, such as when staying in hotels or Airbnbs. By walking through a room with this system, you can detect and locate hidden surveillance devices in real time, providing an easy and effective way to enhance personal security and privacy.
+
 **Working**
+
 By capturing WiFi packets and analyzing their Received Signal Strength Indicator (RSSI), I was able to estimate the location of a hidden camera. I used scripts to filter packets based on MAC addresses, extract signal strength, and record the data for further analysis. Combining this data with readings from an Inertial Measurement Unit (IMU), I created a trajectory map where signal strength was color-coded, making it easier to pinpoint the camera's location.
